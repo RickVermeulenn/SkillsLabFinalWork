@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+
+#fsbg {
+	height: 870px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+#logo {
+	width: 300px;
+	height: 300px; 
+	text-align: left;
+}
+#menuImage {
+	width: 30px;
+	height: 30px; 
+}
+
+
+#head { 
+width: 78%;
+height: 800px;
+margin: 0px auto;
+background-image: url("update/cover.jpg")  ;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+#title{  
+    border-bottom: 6px solid #262626;
+}
+#context{
+	border-bottom: 3px solid #262626;
+}
+	
+
+#navigation {
+	text-align:center;	
+}
+
+#divnav {
+	width: 200px;
+}
+
+#buttonimage {
+	width: 150px;
+	height: 150px;	
+}
+
+
+body {
+	background-color: #000000;
+}
+
+#map { frame-border: 0;
+        height: 800px;
+        width: 78%;
+		
+       }
+#maps{
+	width: 74%;
+	height: 110%;
+margin: 0px auto;
+text-align: center;
+background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #f1f2ef); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #f1f2ef); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #f1f2ef); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #f1f2ef); /* Standard syntax (must be last) */
+	padding: 30px 30px; 
+	padding-bottom: 70px;
+}
+
+#maps h2 {
+	margin-top: 0;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+	z-index: 1; 
+	position: fixed;
+	top: 0;
+}
+
+#menuLeft {
+   float: left;
+}
+#menuRight {
+    float: right;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menuLeft a {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+#menuRight a {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+MenuLeft a:hover:not(.active) {
+    background-color: #111;
+	float: right;
+}
+MenuRight a:hover:not(.active) {
+    background-color: #c09550;
+	float: right;
+}
+
+.active {
+    background-color: #c09550;
+	float: right;
+}
+
+footer
+#footer {
+    list-style-type: none;
+    margin: 0;
+	padding: 0px;
+    overflow: hidden;
+    background-color: #000;
+	z-index: 1; 
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+
+#footerItem {
+   float: left;
+   padding: 20px 
+}
+
+#menuItem a {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+MenuItem a:hover:not(.active) {
+    background-color: #111;
+	float: right;
+}
+
+
+#maps2{
+	width: 95%;
+	height: 110%;
+margin: 0px auto;
+text-align: center;
+  background-color: #ff6666;
+}
+	
+	   
+#first {
+	width: 95%;
+	height: 1050px;
+margin: 0px auto; 
+background-image: url("about3.jpg")
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px ;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+	    margin-left: -70px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    width: 100%;
+	padding-bottom: 50px;
+}
+
+
+#list {
+	margin-left: 0px;
+    float: left;
+	list-style-type: none;
+
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#tab {
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	min-height: 100%;
+	min-width: 1040px; 
+}
+
+#tab2 {
+	
+		background-color:#FFFFFF;
+  
+	width: 95%;;
+	left: 10px;
+	height: 200px
+}
+
+#content {
+	background-color: #ffffff;
+  width: 95%;
+height: 50px;
+margin: 0px auto; 
+text-align: center;
+}
+
+
+
+h1{
+	font-size: 60px;
+	color: #000000;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+h2 {
+	font-size: 60px;
+	color: #000000;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h3 {
+	font-size: 35px;
+	color: #000000;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+h4{
+	font-size: 45px;
+	color: #000000;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.myButton {
+	display:inline-block;
+	cursor:pointer;
+	padding: 0px 40px;
+	width: 160px;
+	height: 160px;
+		
+}
+.myButton:hover {
+	color:#FFFFFF;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#tab {
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	min-height: 100%;
+	min-width: 1040px; 
+	border:0;
+}
+
+.ButtonB {
+	background-color:#000000;
+	border-radius:9px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#1BD2F2;
+	font-family:Standaardlettertype;
+	font-size:30px;
+	font-weight:bold;
+	text-align: center;
+	padding:15px 40px;
+	text-decoration:none;
+	width: 45%;
+		
+}
+.ButtonB:hover {
+	color:#FFFFFF;
+}
+.ButtonB:active {
+	position:relative;
+	top:1px;
+}
+
+h5 {
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h6 {
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: underline;
+}
+h7 {
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+h8 {
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: underline;
+}
+	/* CSS Document */
+
